@@ -18,9 +18,12 @@ steps:
 
 - script: |
     npm install
-    |
-    npm test.js
   displayName: 'npm install and build'
+
+- script: |
+    npm test.js
+  displayName: 'run test.js'
+
 - task: PublishTestResults@2
   inputs:
     testResultsFormat: 'JUnit'
