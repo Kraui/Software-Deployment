@@ -1,7 +1,6 @@
 {
   "name": "webapp",
   "version": "1.0.0",
-  "description": "",
   "main": "app.js",
   "directories": {
     "test": "test"
@@ -9,6 +8,7 @@
   "dependencies": {
     "applicationinsights": "^1.8.8",
     "express": "^4.17.1",
+    "jade": "^1.11.0",
     "mocha": "^8.2.1",
     "mocha-junit-reporter": "^2.0.0"
   },
@@ -17,5 +17,6 @@
     "test": "mocha test --reporter mocha-junit-reporter"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "description": ""
 }
