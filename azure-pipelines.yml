@@ -33,7 +33,7 @@ steps:
   inputs:
     azureSubscription: 'Azure für Bildungseinrichtungen(ce0dbd91-56d4-41b8-92cb-0ed59c383389)'
     appType: 'webAppLinux'
-    appName: 'enkewebapp'
+    appName: 'enkeWebApp2'
     package: '$(System.DefaultWorkingDirectory)/WebApp'
     customWebConfig: '-Handler iisnode -NodeStartFile app.js -appType node'
     
