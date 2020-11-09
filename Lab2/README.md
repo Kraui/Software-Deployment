@@ -10,4 +10,4 @@ Dev WebApp: https://enkewebapp2.azurewebsites.net
 Production WebApp: https://webapppipelineenke.azurewebsites.net
 
 ## Dokumentation wie die Releases freigegeben werden:
-Unter Releases > create release > create > stage 1 deploy
+Unter Releases > create release > create > dev deploy
