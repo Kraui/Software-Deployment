@@ -26,6 +26,9 @@ steps:
     testResultsFormat: 'JUnit'
     testResultsFiles: '**/*test*.xml'
     searchFolder: '$(Build.SourcesDirectory)/WebApp'
+- task: PublishBuildArtifacts@1
+  inputs:
+    PathtoPublish: '$(System.DefaultWorkingDirectory)/WebApp'
 - task: AzureWebApp@1
   inputs:
     azureSubscription: 'Azure für Bildungseinrichtungen(ce0dbd91-56d4-41b8-92cb-0ed59c383389)'
@@ -33,3 +36,4 @@ steps:
     appName: 'enkewebapp'
     package: '$(System.DefaultWorkingDirectory)/WebApp'
     customWebConfig: '-Handler iisnode -NodeStartFile app.js -appType node'
+    
