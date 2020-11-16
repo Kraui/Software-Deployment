@@ -27,7 +27,7 @@ The code for building is as followed
 
 `docker build -t (image name) .`
 
-##Deploying
+## Deploying the images
 
 After that, execute the following command in the root folder to start docker images.
 
