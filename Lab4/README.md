@@ -2,6 +2,10 @@
 ## Kubernetes 
 #### Christoph Enke
 
+IP Adresse zum Aufrufen der Wordpress Seite:
+
+51.138.92.18
+
 ### Erste Einstellungen
 
 Zu allererst wird folgender Befehl zum einloggen ausgeführt
